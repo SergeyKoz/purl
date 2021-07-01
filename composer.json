@@ -1,12 +1,13 @@
 {
     "name": "jwage/purl",
     "type": "library",
-    "description": "URL Manipulation for PHP 5.3",
+    "description": "URL Manipulation",
     "keywords": ["url", "manipulation"],
     "homepage": "http://github.com/jwage/purl",
     "license": "MIT",
     "authors": [
-        {"name": "Jonathan H. Wage", "email": "jonwage@gmail.com"}
+        {"name": "Jonathan H. Wage", "email": "jonwage@gmail.com"},
+        {"name": "Serhii Kozin"}
     ],
     "autoload": {
         "psr-4": {"Purl\\": "src/Purl"}
@@ -18,13 +19,13 @@
         "sort-packages": true
     },
     "require": {
-        "php": "^7.2"
+        "php": "^8.0"
     },
     "require-dev": {
-        "doctrine/coding-standard": "^6.0",
-        "phpstan/phpstan": "^0.11.5",
-        "phpstan/phpstan-strict-rules": "^0.11.0",
-        "phpunit/phpunit": "^8.1"
+        "doctrine/coding-standard": "^9.0",
+        "phpstan/phpstan": "^0.12",
+        "phpstan/phpstan-strict-rules": "^0.12",
+        "phpunit/phpunit": "^9.0"
     },
     "extra": {
         "branch-alias": {

@@ -1,13 +1,12 @@
 {
-    "name": "jwage/purl",
+    "name": "sergeykoz/purl",
     "type": "library",
     "description": "URL Manipulation",
     "keywords": ["url", "manipulation"],
     "homepage": "http://github.com/jwage/purl",
     "license": "MIT",
     "authors": [
-        {"name": "Jonathan H. Wage", "email": "jonwage@gmail.com"},
-        {"name": "Serhii Kozin"}
+        {"name": "Jonathan H. Wage", "email": "jonwage@gmail.com"}
     ],
     "autoload": {
         "psr-4": {"Purl\\": "src/Purl"}
